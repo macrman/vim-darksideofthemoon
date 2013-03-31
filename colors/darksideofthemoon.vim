@@ -18,7 +18,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="darkside"
+let g:colors_name="darksideofthemoon"
 
 
 hi Boolean         guifg=#AE81FF
