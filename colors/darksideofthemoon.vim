@@ -112,7 +112,7 @@ hi SpecialKey      guifg=#465457
 " Support for 256-color terminal
 "
 if &t_Co > 255
-   hi Normal          ctermfg=252 ctermbg=232
+   hi Normal          ctermfg=252 cterm=0
    hi CursorLine                  ctermbg=234   cterm=none
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
@@ -139,7 +139,7 @@ if &t_Co > 255
    hi Folded          ctermfg=67  ctermbg=16
    hi Function        ctermfg=118
    hi Identifier      ctermfg=208               cterm=none
-   hi Ignore          ctermfg=244 ctermbg=0
+   hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi Keyword         ctermfg=161               cterm=bold
@@ -155,7 +155,7 @@ if &t_Co > 255
    " complete menu
    hi Pmenu           ctermfg=81  ctermbg=16
    hi PmenuSel                    ctermbg=244
-   hi PmenuSbar                   ctermbg=0
+   hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
 
    hi PreCondit       ctermfg=118               cterm=bold
@@ -172,18 +172,18 @@ if &t_Co > 255
 
    hi Statement       ctermfg=161               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253
-   hi StatusLineNC    ctermfg=244 ctermbg=0
+   hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
    hi Title           ctermfg=166
-   hi Todo            ctermfg=231 ctermbg=0   cterm=bold
+   hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
 
-   hi VertSplit       ctermfg=244 ctermbg=0   cterm=bold
+   hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
    hi Visual                      ctermbg=235
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
